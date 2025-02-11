@@ -2,19 +2,17 @@ h1 {
    color: #d22e3a
 }
 h2 {
-   color: #h32d5a
+   color: #000000
 }
-<!doctype html>
-  <html lang="en">
-    <head>
-      <title>Image Upload</title>
-    </head>
-    <body>
-      <h1>Image Upload</h1>
-<form action="/upload" method="post" enctype="multipart/form-data">
-<input type="file" name="image" accept= "image/*" required>
-<button type="submit">Upload</button>
-</form>
-</section>
-</body>
-</html>
+h3 {
+   color: #00FF00
+}
+h4 {
+   color: #696969
+}
+h5 {
+   color: #DAA520
+}
+h6 {
+   color: #800000
+}

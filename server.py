@@ -48,7 +48,7 @@ def return_sample_page():
                       </head>
                       <body>
                         <h1>Жди нас, Марс!</h1>
-                        <img src="{url_for('static', filename='image_mars/webserver-1-7.jpeg')}" alt="здесь должна была быть картинка, но не нашлась">
+                        <img src="{url_for('static', filename='image_mars/img.jpeg')}" alt="здесь должна была быть картинка, но не нашлась">
                       </body>
                     </html>"""
 
