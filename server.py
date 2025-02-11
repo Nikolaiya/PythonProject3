@@ -38,5 +38,20 @@ def promotion():
     return ''.join(k)
 
 
+@app.route('/image_sample')
+def return_sample_page():
+    return f"""<!doctype html>
+                    <html lang="en">
+                      <head>
+                        <meta charset="utf-8">
+                        <title>Привет, Марс!</title>
+                      </head>
+                      <body>
+                        <h1>Жди нас, Марс!</h1>
+                        <img src="{url_for('static', filename='image_mars/webserver-1-7.jpeg')}" alt="здесь должна была быть картинка, но не нашлась">
+                      </body>
+                    </html>"""
+
+
 if __name__ == '__main__':
     app.run(port=9000, host='127.0.0.1')
